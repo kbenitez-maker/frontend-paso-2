@@ -1,0 +1,14 @@
+**/node_modules/**
+
+# Local agent tooling (not project code)
+.agents
+.blueprint
+.cursor
+.mcp.json
+.specify
+.vscode
+.zed
+opencode.json
+.claude
+.codex
+.gemini

@@ -1,0 +1,18 @@
+{
+  "Survey": {
+    "question": "How likely are you to recommend Banco LAFISE for business account opening to a colleague or another company?",
+    "scale": "1 is not likely at all and 10 is very likely.",
+    "scaleLabel": "Score from 1 to 10",
+    "improve": "How can we improve to serve you better?",
+    "liked": "We are glad about your score! What did you like most about your experience with LAFISE?",
+    "placeholder": "Write here",
+    "optional": "Answering is optional.",
+    "category": "Your answer reaches us as {category, select, detractor {Detractor} passive {Passive} other {Promoter}}.",
+    "skip": "Skip",
+    "send": "Send",
+    "failed": {
+      "title": "We could not send your answer",
+      "description": "Check your connection and try again. We did not lose what you wrote."
+    }
+  }
+}

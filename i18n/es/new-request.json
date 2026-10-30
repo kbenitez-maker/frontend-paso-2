@@ -1,0 +1,72 @@
+{
+  "NewRequest": {
+    "card": {
+      "title": "Identificación de la empresa",
+      "description": "Complete estos datos para verificar su empresa y generar la lista de documentos legales requeridos."
+    },
+    "identification": {
+      "label": "Identificación de la empresa",
+      "typeLabel": "Tipo de identificación",
+      "typePlaceholder": "Tipo",
+      "numberPlaceholder": "Número de identificación"
+    },
+    "baseData": {
+      "legalName": {
+        "label": "Razón social de la empresa",
+        "placeholder": "Como aparece en la escritura"
+      },
+      "legalEntityType": {
+        "label": "Tipo de persona jurídica"
+      },
+      "annualSales": {
+        "label": "Ventas anuales",
+        "prefix": "US$",
+        "placeholder": "0.00",
+        "hint": "Puede consultar este dato en su Declaración de Renta, Estados Financieros o proyección de ingresos autorizada.",
+        "equivalent": "Equivalente aproximado: {amount}"
+      },
+      "branch": {
+        "label": "Sucursal donde desea ser atendido"
+      }
+    },
+    "footer": {
+      "verify": "Verificar empresa"
+    },
+    "outcomes": {
+      "requestInProgress": {
+        "title": "Ya tiene una solicitud en proceso",
+        "message": "Identificamos que ya posee una solicitud en proceso relacionada a este Número de identificación de su empresa. Por favor, retorne al panel para visualizar el estado de su solicitud.",
+        "link": "Ver mi solicitud"
+      },
+      "existingClient": {
+        "title": "Ya es cliente LAFISE",
+        "message": "Identificamos que ya es un cliente LAFISE. Para solicitar una nueva cuenta o un producto adicional, por favor póngase en contacto con su Ejecutivo de Negocios asignado o visítenos en cualquiera de nuestras sucursales.",
+        "action": "Volver al inicio"
+      },
+      "timeout": {
+        "title": "El servicio está tardando",
+        "message": "En este momento el servicio experimenta demoras. Por favor, intente nuevamente."
+      },
+      "unavailable": {
+        "title": "No pudimos verificar su empresa",
+        "message": "No fue posible verificar la información de la empresa en este momento. Por favor, vuelva a intentarlo en unos minutos o contacte a soporte."
+      }
+    },
+    "createFailed": {
+      "title": "No pudimos crear la solicitud",
+      "description": "Sus datos siguen en pantalla. Intente de nuevo en unos segundos."
+    },
+    "tooltips": {
+      "legalName": "Ingrese el nombre legal completo de la empresa, tal como figura en su escritura.",
+      "annualSales": "Esta información suele figurar en documentos de la empresa como la Declaración de Renta o los Estados Financieros. También se puede obtener de una proyección de ingresos firmada por un contador público autorizado o representante legal.",
+      "identification": {
+        "NI": "La identificación que se requiere es el número de Registro Único de Contribuyente (RUC). Es un código de 14 caracteres alfanuméricos que aparece en la cédula RUC o en las declaraciones de impuestos de la empresa.",
+        "PA": "La identificación que se requiere es el Registro Único de Contribuyente de la empresa, seguido de su dígito verificador (DV). Lo encuentra en el Aviso de Operación, en las declaraciones de renta o en la consulta de RUC de la Dirección General de Ingresos. Las sociedades inscritas antes de 2014 conservan un formato distinto; regístrelo tal como aparece en su certificado.",
+        "CR": "La identificación que se requiere es el número de Cédula Jurídica. Es un código de 10 dígitos con la forma 3-101-XXXXXX que aparece en la personería jurídica de la empresa o en su constancia del Registro Nacional.",
+        "HN": "La identificación que se requiere es el número de Registro Tributario Nacional. Es un código de 14 números que aparece en las declaraciones de impuestos o en el carnet oficial de la empresa.",
+        "SV": "La identificación que se requiere es el Número de Identificación Tributaria (NIT). Es un código de 14 dígitos que aparece en la tarjeta de NIT de la empresa o en sus declaraciones ante el Ministerio de Hacienda.",
+        "DO": "La identificación que se requiere es el número de Registro Nacional del Contribuyente (RNC). Es un código de 9 u 11 dígitos que identifica a la empresa ante la Dirección General de Impuestos Internos. Puede consultarlo en sus comprobantes fiscales o en sus documentos constitutivos."
+      }
+    }
+  }
+}

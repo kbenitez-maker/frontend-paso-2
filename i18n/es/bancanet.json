@@ -1,0 +1,8 @@
+{
+  "Bancanet": {
+    "approvers": {
+      "hint": "Solo aparecen las personas registradas arriba como superusuarios de Bancanet.",
+      "empty": "Primero registre un superusuario."
+    }
+  }
+}

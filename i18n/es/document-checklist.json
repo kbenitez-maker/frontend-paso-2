@@ -1,0 +1,71 @@
+{
+  "DocumentChecklist": {
+    "confirm": {
+      "card": {
+        "title": "Confirme estos datos antes de subir sus documentos",
+        "description": "Con ellos armamos su lista de documentos y los que el banco genera con su información."
+      },
+      "notice": "Aquí no se edita nada. Si algo está mal, corríjalo en el paso donde lo cargó: cambiarlo puede alterar los documentos que le pidamos.",
+      "listLabel": "Datos que determinan su checklist",
+      "edit": "Ir a editar",
+      "unanswered": "Sin responder",
+      "yes": "Sí",
+      "no": "No",
+      "fields": {
+        "legal_entity_type": "Tipo de persona jurídica",
+        "incorporation_country": "País de constitución",
+        "business_activity": "Actividad del negocio",
+        "economic_sector": "Sector económico",
+        "economic_activity": "Actividad económica",
+        "registered_in_rtbf": "¿La empresa se encuentra inscrita en el registro de transparencia y beneficiarios finales (RTBF)?",
+        "law_7786_category": "Categoría correspondiente a la empresa según la Ley 7786 (Art. 15 y 15 Bis)",
+        "other_tax_residence": "¿La empresa tiene países de residencia fiscal diferente al de constitución?",
+        "free_trade_zone": "¿La empresa está ubicada en una zona libre de impuestos o zona franca?",
+        "fintech": "¿La empresa opera como una FINTECH?",
+        "statutes_grant_bank_powers": "¿En los estatutos sociales se detallan las facultades de quienes representan a la empresa?",
+        "regulated_by_government_body": "¿La empresa es regulada por un organismo gubernamental?",
+        "special_regime_zone": "¿La empresa está sujeta a régimen especial de zona franca o zona económica especial?"
+      },
+      "next": "Confirmar y continuar"
+    },
+    "signer": {
+      "title": "Quién firma los documentos bancarios",
+      "description": "Con esta persona se construye la solicitud de apertura.",
+      "label": "Seleccione al representante legal que firmará los documentos bancarios requeridos",
+      "placeholder": "Seleccione una opción",
+      "none": "No ha registrado ningún representante legal",
+      "pending": "Todavía no ha designado firmante. Sin eso no podemos generar sus documentos bancarios."
+    },
+    "documents": {
+      "loaded": "{loaded} de {total} cargados",
+      "categories": {
+        "legal": "Documentos de la empresa",
+        "representatives": "Representantes y firmantes",
+        "board": "Junta directiva",
+        "shareholders": "Accionistas y beneficiarios",
+        "fiduciaries": "Administradores y figuras fiduciarias",
+        "financial": "Documentos financieros",
+        "regulatory": "Documentos regulatorios"
+      }
+    },
+    "statements": {
+      "title": "Declaraciones",
+      "description": "Lea y acepte las tres por separado. Con eso enviamos su documentación al banco.",
+      "label": "Declaraciones",
+      "items": {
+        "data-validated": "Al seleccionar Continuar, usted acepta que cada dato presentado en la confirmación se encuentra validado y es correcto.",
+        "declaration": "Declaro que los datos suministrados y documentos adjuntos a la presente solicitud son reales, ciertos, completos y actualizados y autorizo a {bank} a su verificación, tratamiento y transferencia con otras entidades locales o regionales del Grupo Financiero LAFISE.",
+        "no-commitment": "Acepto y reconozco que el suministro de la presente información y de los documentos adjuntos no constituyen la aprobación automática, ni implican el compromiso u obligación del Banco para la apertura de la cuenta, en virtud de que tal decisión queda sujeta a la debida diligencia para el conocimiento del cliente, incluyendo procedimientos y controles para la aprobación de nuevos clientes conforme al marco jurídico correspondiente y las políticas internas del Banco."
+      }
+    },
+    "errors": {
+      "saveFailed": {
+        "title": "No pudimos guardar su elección",
+        "description": "Intente de nuevo en unos segundos."
+      }
+    },
+    "declarations": {
+      "submit": "Enviar documentación"
+    }
+  }
+}

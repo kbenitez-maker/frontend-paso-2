@@ -1,0 +1,298 @@
+{
+  "Form": {
+    "optional": "(Optional)",
+    "tooltipTrigger": "What it means: {label}",
+    "yes": "Yes",
+    "no": "No",
+    "preview": {
+      "readOnly": "Preview: changes are not saved."
+    },
+    "placeholder": {
+      "text": "Type here",
+      "textLong": "Type the details",
+      "number": "Numbers only",
+      "email": "name@domain.com",
+      "url": "https://",
+      "select": "Select an option",
+      "date": "Select a date"
+    },
+    "catalog": {
+      "unavailable": "Catalog unavailable",
+      "retry": "Retry",
+      "loading": "Loading options…",
+      "waitingParent": "Select the previous field first",
+      "empty": "No options available"
+    },
+    "hints": {
+      "notFuture": "It cannot be a future date.",
+      "notBefore": "It must be on or after: {field}.",
+      "notAfter": "It must be on or before: {field}.",
+      "notAbove": "It cannot be greater than: {field}.",
+      "minValue": "Minimum value: {value}.",
+      "maxValue": "Maximum value: {value}."
+    },
+    "errors": {
+      "required": "This field is required.",
+      "min": "The value is below the allowed minimum.",
+      "max": "The value exceeds the allowed maximum.",
+      "not_future": "The date cannot be in the future.",
+      "max_years_ago": "Check the date: the person would be over 120 years old.",
+      "prohibited_country": "This country requires you to visit a branch. The request cannot continue online.",
+      "identification_number": "Use only letters, numbers, dots and dashes, with at least 5 letters or numbers.",
+      "url": "Enter a valid link.",
+      "email": "Enter a valid email address.",
+      "gte_field": "The value is before the allowed minimum.",
+      "lte_field": "The value is after the allowed maximum.",
+      "read_only": "This value comes from profiling and cannot be changed.",
+      "phone": "Enter a valid phone number, digits only.",
+      "min_items": "Some records are still missing.",
+      "max_items": "You exceeded the maximum number of records.",
+      "powers_not_reviewed": "Review the powers granted before closing the section.",
+      "trust_holder_mismatch": "If the holder is the trust company in its own name, the request does not belong to this route. An executive will contact you.",
+      "beneficiaries_as_class": "A beneficiary described only as a class cannot be registered. An executive will contact you.",
+      "optional_figures_not_reviewed": "Register the figures the contract provides for in the Administration section before closing.",
+      "unmapped_entity_type": "We could not determine the type of registration that applies to this entity. An executive will contact you.",
+      "exceeds_share_capital": "It cannot be greater than the share capital.",
+      "exceeds_total_assets": "It cannot be greater than the total assets.",
+      "credits_exceed_sales": "Transactional profile error: the credit amount exceeds the company's declared annual sales.",
+      "debits_exceed_credits": "Transactional profile error: the debit amount exceeds the expected credits.",
+      "no_feature_enabled": "Select at least one feature with Yes to enable the Bancanet service.",
+      "joint_signers": "A joint signature requires at least two registered signers.",
+      "ownership_cycle": "This person already holds shares further up this branch: registering them here would close a circle in the structure.",
+      "body_name": "That names the body, not its member. The technical committee is registered with one record per member and the position they hold: otherwise who instructs the trustee remains unidentified.",
+      "committee_as_one": "The technical committee is registered as a single related party holding all three positions. Register each member separately, with the position they hold: the file must identify the people, not the body.",
+      "party_as_class": "This describes a group, not a person. The contract must identify each beneficiary by name: a beneficiary described only as a class cannot be registered and leaves the file without the people it must know.",
+      "person_unlisted": "The selected person is no longer registered in the request. Select another one before continuing.",
+      "signer_unlisted": "The signers registered in the Administrators section changed. You must set up the signature scheme of the flagged account again before continuing.",
+      "superuser_unlisted": "The registered Legal Representatives or Signers changed. You must designate the flagged BancaNet Superuser again before continuing.",
+      "invalid": "The value is not valid."
+    },
+    "collection": {
+      "noun": "record",
+      "add": "Add {noun}",
+      "new": "New {noun}",
+      "item": "{noun} {index}",
+      "save": "Save {noun}",
+      "cancel": "Cancel",
+      "back": "Back",
+      "edit": "Edit {noun} {index}",
+      "remove": "Remove {noun} {index}",
+      "empty": "You have not added any {noun} yet.",
+      "countMin": "{count} of minimum {min}",
+      "minItems": "Add at least {min, plural, one {# record} other {# records}} to continue.",
+      "countMax": "{count} of maximum {max}",
+      "count": "{count, plural, one {# record} other {# records}}",
+      "maxReached": "You reached the maximum of {max}.",
+      "unfilled": "Record not filled in",
+      "incompleteItems": "Some fields are still missing in {items}.",
+      "tabs": "Record data groups",
+      "tabEmpty": "There is nothing to fill in here yet. These details are requested based on your answers in the record and in the structure.",
+      "known": "{name} is already registered in {section}. Their details come from there and are not requested again; they stay visible so you can check it is the same person. Whatever is missing below must still be filled in.",
+      "someone": "This person",
+      "duplicate": {
+        "title": "This person is already on the list",
+        "description": "People are identified by identification type and number, not by name.",
+        "notice": "This person is already registered as {noun}. Do you want to add another role?",
+        "open": "Open the existing record",
+        "stay": "Stay here"
+      },
+      "groups": {
+        "general": "General information",
+        "personal": "Personal information",
+        "pep": "Politically exposed person",
+        "public_figure": "Well-known public figure",
+        "company": "Company information",
+        "stock_exchange": "Stock exchange",
+        "representative": "Representative",
+        "natural_complementary": "Additional personal information",
+        "dependents": "Dependents",
+        "own_business": "Own business",
+        "economic_profile": "Economic profile",
+        "employment": "Employment information",
+        "personal_references": "Personal references",
+        "spouse": "Spouse information",
+        "spouse_employment": "Spouse employment",
+        "spouse_additional": "Additional spouse information",
+        "tax_self_certification": "Tax residence self-certification",
+        "tax_residences": "Tax residence",
+        "minority_shareholders": "Partners and shareholders"
+      }
+    },
+    "collections": {
+      "references": {
+        "label": "Company references",
+        "noun": "reference",
+        "gender": "female",
+        "missing": "Add at least 2 references (commercial, bank or both) to continue with the request."
+      },
+      "accounts": {
+        "label": "Company bank accounts",
+        "noun": "account",
+        "gender": "female",
+        "tabs": {
+          "setup": "Setup",
+          "checkbook_card": "Checkbook and card",
+          "compliance": "Compliance",
+          "transactional_profile": "Transactional profile",
+          "signers": "Signers",
+          "transfers": "Transfers"
+        },
+        "missing": "Select and set up at least one (1) bank account to continue with the request."
+      },
+      "additional_cards": {
+        "label": "Additional cards",
+        "noun": "card",
+        "gender": "female"
+      },
+      "authorized_persons": {
+        "label": "Authorized persons",
+        "noun": "authorized person",
+        "gender": "female"
+      },
+      "signers": {
+        "label": "Account signers",
+        "noun": "signer",
+        "gender": "male"
+      },
+      "outgoing_transfers": {
+        "label": "Outgoing transfers",
+        "noun": "transfer",
+        "gender": "female"
+      },
+      "incoming_transfers": {
+        "label": "Incoming transfers",
+        "noun": "transfer",
+        "gender": "female"
+      },
+      "clients": {
+        "label": "Main clients of the company",
+        "noun": "client",
+        "gender": "male",
+        "missing": "Register at least one client to continue with the request."
+      },
+      "suppliers": {
+        "label": "Main suppliers of the company",
+        "noun": "supplier",
+        "gender": "male",
+        "missing": "Register at least one supplier to continue with the request."
+      },
+      "superusers": {
+        "label": "Designated superusers",
+        "noun": "superuser",
+        "gender": "male"
+      },
+      "tax_residences": {
+        "label": "Countries of tax residence",
+        "noun": "tax country",
+        "gender": "male"
+      },
+      "shareholders": {
+        "label": "Ownership structure",
+        "noun": "shareholder",
+        "gender": "male",
+        "duplicate": "This person already holds shares in this company. Do you want to change that percentage?"
+      },
+      "administrators": {
+        "label": "Registered administrators",
+        "noun": "administrator",
+        "gender": "male",
+        "tabs": {
+          "basic": "Basic information",
+          "complementary": "Additional information",
+          "administrative": "Administrative role"
+        }
+      },
+      "trust_parties": {
+        "label": "Registered parties",
+        "help": "A trust asks for no proportion. Every settlor is registered, however much each contributed, and every beneficiary the contract identifies, without filtering by percentage. No beneficial owner follows from a participation either. The remainder beneficiary enters under the same beneficiary role. Of a legal person that is a party to the trust, its data and its representative's are registered, and nothing more. Its shareholding structure is not traced, whether or not it has shareholders: in a trust, control is defined by the contract, not by ownership.",
+        "noun": "party",
+        "gender": "female",
+        "tabs": {
+          "basic": "Basic information"
+        }
+      },
+      "trust_administrators": {
+        "label": "Trust administrators",
+        "help": "The data comes from the trust contract and its addenda: who manages the assets, who legally represents the account and who is authorized to operate it. The attorney-in-fact, the protector, the supervisor and the technical committee are registered only if the contract provides for them.",
+        "noun": "administrator",
+        "gender": "male",
+        "tabs": {
+          "basic": "Basic information",
+          "administrative": "Administrative role"
+        }
+      },
+      "shareholder_tax_residences": {
+        "label": "Countries of tax residence",
+        "noun": "tax country",
+        "gender": "male"
+      },
+      "admin_dependents": {
+        "label": "Dependents",
+        "noun": "dependent",
+        "gender": "male"
+      },
+      "admin_personal_references": {
+        "label": "Personal references",
+        "noun": "personal reference",
+        "gender": "female"
+      },
+      "admin_tax_residences": {
+        "label": "Countries of tax residence",
+        "noun": "tax country",
+        "gender": "male"
+      },
+      "trust_admin_dependents": {
+        "label": "Dependents",
+        "noun": "dependent",
+        "gender": "male"
+      },
+      "trust_admin_personal_references": {
+        "label": "Personal references",
+        "noun": "personal reference",
+        "gender": "female"
+      },
+      "trust_admin_tax_residences": {
+        "label": "Countries of tax residence",
+        "noun": "tax country",
+        "gender": "male"
+      },
+      "trust_party_tax_residences": {
+        "label": "Countries of tax residence",
+        "noun": "tax country",
+        "gender": "male"
+      },
+      "financial_institutions": {
+        "label": "Add the financial institutions",
+        "noun": "financial institution",
+        "gender": "female",
+        "missing": "Register at least one financial institution to continue."
+      },
+      "customers": {
+        "label": "Add the company's main customers",
+        "noun": "customer",
+        "gender": "male",
+        "missing": "Register your customers to continue.",
+        "help": "Include the customers that account for 80% of the company's billing or income."
+      },
+      "suppliers": {
+        "label": "Add the company's main suppliers",
+        "noun": "supplier",
+        "gender": "male",
+        "missing": "Register your suppliers to continue.",
+        "help": "Include the suppliers that account for 80% of the company's purchases or costs."
+      }
+    },
+    "loadError": {
+      "message": "This section could not be loaded. Check your connection and try again.",
+      "retry": "Retry"
+    },
+    "saveFailed": {
+      "title": "Could not save",
+      "description": "Your data is still on screen. Try again in a few seconds."
+    },
+    "hiddenFieldError": {
+      "title": "This section could not be validated",
+      "description": "This section has validation errors that do not appear on the visible fields."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/** Catalogs only the related-parties step uses (names as the API serves them). */
+const RELATED_PARTIES_CATALOG_NAMES = [
+  'related-person-types',
+  'trust-administrator-person-types',
+  'related-party-roles',
+  'trust-administration-roles',
+  'trust-party-roles',
+  'board-positions',
+  'administrative-positions',
+  'technical-committee-positions',
+  'shareholding-companies',
+  'shareholder-administrators',
+  'no-beneficial-owner-reasons',
+  'pep-relation-types',
+  'kinships',
+  'pep-associate-types',
+  'public-entities',
+  'public-figure-reasons',
+  'marital-statuses',
+  'representative-power-types',
+  'personal-economic-activities',
+  'professions',
+  'occupations',
+  'work-sectors',
+  'employment-types',
+  'job-positions',
+  'acquaintance-durations',
+] as const;
+
+export { RELATED_PARTIES_CATALOG_NAMES };

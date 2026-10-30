@@ -1,0 +1,52 @@
+{
+  "Signature": {
+    "phases": {
+      "locked": {
+        "label": "Bloqueado",
+        "title": "Primero termine de subir su documentación",
+        "detail": "Armamos estos documentos con la información que ya validamos, así que no podemos generarlos hasta que complete el checklist del paso anterior."
+      },
+      "in_review": {
+        "label": "En revisión",
+        "title": "Ahora nos toca a nosotros",
+        "detail": "Estamos revisando lo que subió. Cuando terminemos, aquí aparecerán los documentos que debe firmar."
+      },
+      "available": {
+        "label": "Listos para firmar",
+        "title": "Sus documentos ya están aquí",
+        "detail": "Terminamos de revisar su documentación y generamos los formatos. Descárguelos, fírmelos y súbalos aquí mismo."
+      },
+      "returned": {
+        "label": "Con observaciones",
+        "title": "Hay documentos que revisar",
+        "detail": "Devolvimos con observaciones los documentos que ve abajo. Corrija solo esos: lo que ya aprobamos no se reabre."
+      }
+    },
+    "milestones": {
+      "received": {
+        "title": "Recibimos su documentación",
+        "detail": "Quedó registrado todo lo que subió en el paso anterior."
+      },
+      "review": {
+        "title": "La revisamos",
+        "detail": "Toma entre 1 y 3 días hábiles. Después generamos los documentos que debe firmar."
+      },
+      "sign": {
+        "title": "Firma y cierra",
+        "detail": "Le escribimos cuando estén listos. Los descarga, los firma y los sube aquí mismo."
+      }
+    },
+    "milestonesLabel": "Cómo sigue su trámite",
+    "arrival": {
+      "available": "Terminamos de revisar su documentación y generamos los formatos. Descárguelos, fírmelos y devuélvalos."
+    },
+    "goToChecklist": "Ir a lo que falta",
+    "footer": {
+      "finish": "Finalizar"
+    },
+    "submitFailed": {
+      "title": "No pudimos enviar su solicitud",
+      "description": "Revise su conexión e intente de nuevo. Sus documentos siguen guardados."
+    }
+  }
+}

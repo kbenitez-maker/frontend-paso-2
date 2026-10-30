@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@import '@lafise/onyx-system';
+
+@import 'tw-animate-css';
+
+@source "../../node_modules/@lafise/onyx-ui/dist/**/*.{js,ts}";
+
+@source "../../node_modules/@lafise/onyx-theme/dist/**/*.{js,ts}";
+
+@source "../../node_modules/@lafise/lde-web-core/dist/**/*.{js,ts}";
+
+@source "../../node_modules/@lafise/lde-web-auth/dist/**/*.{js,ts}";
+@plugin "tailwindcss-react-aria-components";
+
+/*
+ * Mobile sidebar drawer — shrink the Modal container (data-slot="drawer-content")
+ * to fit-content so React Aria's useInteractOutside only watches the actual
+ * sidebar-panel area. Without this, the container stretches to max-w-512 and
+ * clicks in the transparent gap never trigger backdrop-dismiss.
+ */
+[data-mobile-sidebar='true'] > [data-slot='drawer-content'] {
+  width: fit-content;
+}

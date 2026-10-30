@@ -1,0 +1,20 @@
+{
+  "Request": {
+    "headerLabel": "Navegación de la solicitud",
+    "exit": {
+      "label": "Guardar y salir",
+      "title": "¿Desea salir de la solicitud?",
+      "description": "Guardamos todo lo que completó hasta aquí. Cuando regrese, continuará desde este mismo punto.",
+      "stay": "Seguir aquí"
+    },
+    "autosave": {
+      "idle": "Guardado automático",
+      "saving": "Guardando…",
+      "error": "No se pudo guardar",
+      "tooltip": {
+        "saved": "Guardado {relative}. Puede salir cuando quiera y retomar desde este mismo punto.",
+        "idle": "Su solicitud se guarda sola a medida que la completa. Puede salir cuando quiera y retomarla desde este mismo punto."
+      }
+    }
+  }
+}

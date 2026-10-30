@@ -1,0 +1,28 @@
+{
+  "Profile": {
+    "saveFailed": {
+      "title": "No se pudo guardar",
+      "description": "No fue posible guardar los datos de la empresa. Por favor, intente nuevamente."
+    },
+    "reclassification": {
+      "title": "¿Cambiar el tipo de persona jurídica?",
+      "description": "De este dato depende qué se le pide sobre los socios y relacionados de la empresa.",
+      "routeChange": "Pasar a «{type}» cambia la ruta de registro, así que las secciones de relacionados que llenó dejan de corresponder. Se eliminarán {removed}, y las secciones de la ruta nueva empiezan vacías.",
+      "rolesTaken": "Pasar a «{type}» cambia los roles que se exigen. No se elimina a nadie, pero se retiran roles: {losing}.",
+      "rolesRemoved": "Pasar a «{type}» cambia los roles que se exigen. Se eliminará a {removed}, porque quedaría sin ningún rol vigente. El resto se conserva.",
+      "alsoLosing": "También se retiran roles a {losing}.",
+      "losesRoles": "{name} (pierde {roles})",
+      "irreversible": "Esto no se puede deshacer.",
+      "brokenLinks": " Y deja sin titular {links}: tendrá que volver a designar a alguien antes de enviar la solicitud.",
+      "link": "{kind, select, account_signer {Cuenta {position}} card_holder {Tarjeta de la cuenta {position}} other {Superusuario {position}}} · {name}",
+      "fields": "{count, plural, =0 {} one { Además cambia un campo del formulario.} other { Además cambian # campos del formulario: unos dejan de pedirse y otros se le pedirán por primera vez.}}",
+      "cancel": "Dejarlo como está",
+      "confirm": "Cambiar",
+      "confirmAndRemove": "Cambiar y eliminar",
+      "failed": {
+        "title": "No se pudo cambiar el tipo",
+        "description": "No fue posible cambiar el tipo de persona jurídica. Por favor, intente nuevamente."
+      }
+    }
+  }
+}

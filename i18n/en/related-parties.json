@@ -1,0 +1,101 @@
+{
+  "RelatedParties": {
+    "missingRoles": {
+      "roles": "This company still needs {count, plural, one {the role {roles}} other {the roles {roles}}}.",
+      "positions": "This company still needs {count, plural, one {the position {positions}} other {the positions {positions}}}.",
+      "both": "This company still needs {roleCount, plural, one {the role {roles}} other {the roles {roles}}}; and {positionCount, plural, one {the position {positions}} other {the positions {positions}}}.",
+      "position": "{position} ({role})"
+    },
+    "ownership": {
+      "tree": "Ownership structure",
+      "holder": "The holder company",
+      "holderLower": "the holder company",
+      "rootHint": "The whole structure hangs from here",
+      "sealed": "The participation calculation already ran: the structure is closed and cannot be edited.",
+      "addLevelOne": "Add a level 1 {noun}",
+      "addTo": "Add a {noun} of {company} · {remaining} % left",
+      "full": "{company} already has its capital fully distributed",
+      "edit": "Edit {name}",
+      "remove": "Remove {name}",
+      "collapse": "Collapse {name}",
+      "expand": "Expand {name}",
+      "hidden": "{count, plural, one {# shareholder hidden in this branch} other {# shareholders hidden in this branch}}",
+      "unassigned": "Unassigned",
+      "over": "The distribution exceeds 100 % by {excess} %.",
+      "option": {
+        "holder": "The holder company · {capital}",
+        "company": "Level {level} · {company} · {capital}",
+        "remaining": "{remaining} % left",
+        "complete": "complete",
+        "untouched": "no shareholders yet"
+      },
+      "gate": {
+        "openBranches": "The shareholders of these companies are still to be registered: {names}.",
+        "unbalanced": "The holdings in {name} add up to {declared} %: every point of the structure must add up to 100 %.",
+        "stale": "The structure changed after the last calculation, so the result is no longer current and the beneficial owner marks were removed. Confirm the structure again to close.",
+        "cycle": "The registered structure contains a circular holding, so the total participation cannot be calculated. Correct the indicated link and try again. Circular link: {path}.",
+        "notConfirmed": "Confirm the structure to calculate the total participation of each person.",
+        "missingComplementary": "{count, plural, one {The complementary data of {list} is missing. It is required because their total participation reached the threshold.} other {The complementary data of # related parties who reached the threshold is missing: {list}.}}",
+        "pending": "{name}, shareholder of {company} (level {level})"
+      },
+      "confirm": {
+        "unbalanced": "To calculate, every point must add up to 100 %: {points}.",
+        "point": "{name} has {declared} %",
+        "openBranches": "To calculate, the shareholders of {names} are still to be registered.",
+        "incomplete": "To calculate, complete the list of shareholders above."
+      },
+      "summary": {
+        "title": "Structure and beneficial owners",
+        "threshold": "Threshold {threshold} %",
+        "empty": "Register the partners and shareholders to build the structure.",
+        "open": "The structure of {names} is still to be registered. A company only closes its branch if it is a natural person, is listed on a stock exchange or has no shareholding structure.",
+        "registerOf": "Register the shareholders of {company}",
+        "repeated": "{names} {count, plural, one {holds} other {hold}} shares at more than one point of the structure. It is the same company: its structure is registered once and both holdings hang from it.",
+        "stale": "The structure changed after the last calculation, so the beneficial owner marks were removed. Confirm again to recalculate; the data already captured is kept.",
+        "rule": "The chain goes down with this same form until it reaches natural persons. A company only closes its branch if it is listed on a stock exchange or has no shareholding structure, and in both cases the natural person who represents it must be registered.",
+        "calculated": "Calculation run on {date} with a {threshold} % threshold, on a structure that adds up to 100 %. {count, plural, =0 {No natural person reaches it.} one {One beneficial owner identified.} other {# beneficial owners identified.}}",
+        "sealedHint": "The list above is closed: no shareholders are added or removed. Each one's record can still be completed.",
+        "reopen": "Edit the structure",
+        "ready": "Every branch is closed and every point adds up. The calculation runs on the complete structure, not while capturing it.",
+        "confirm": "Confirm structure",
+        "reconfirm": "Confirm again"
+      },
+      "results": {
+        "label": "Natural persons of the structure",
+        "person": "Person",
+        "level": "Level",
+        "total": "Total participation",
+        "calculation": "Calculation",
+        "beneficial": "Beneficial owner",
+        "below": "Below {threshold} %",
+        "appearances": "Appears at {count} points of the structure",
+        "showRoute": "Show route",
+        "direct": "Direct holding"
+      },
+      "breakdown": {
+        "label": "Participation breakdown",
+        "routeLabel": "Route of the participation",
+        "title": "{name} controls {total} % of the holder company",
+        "oneRoute": "The participation is not direct: it goes through one or more intermediate companies. Each part is multiplied by the previous one, which dilutes the percentage as the chain goes down.",
+        "manyRoutes": "The participation arrives through {count} different routes. Each one is calculated separately and the results are added up.",
+        "route": "Route {index} of {count} · adds {percentage} %",
+        "level": "Level",
+        "who": "Who, and in which company",
+        "part": "Their part",
+        "accumulated": "Equivalent in the holder",
+        "of": "of {company}",
+        "sum": "The calculation: {factors} = {result}",
+        "total": "The {count} routes add up to {total} %."
+      },
+      "failed": {
+        "title": "We could not update the structure",
+        "description": "Try again in a few seconds."
+      }
+    },
+    "reclassification": {
+      "message": "The change of the legal entity type modified the roles required for this entity. Complete the indicated records before continuing.",
+      "removed": " Changing to “{type}” removed {removed}.",
+      "required": " The new classification requires {roles}."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "NewRequest": {
+    "card": {
+      "title": "Company identification",
+      "description": "Complete these details to verify your company and generate the list of required legal documents."
+    },
+    "identification": {
+      "label": "Company identification",
+      "typeLabel": "Identification type",
+      "typePlaceholder": "Type",
+      "numberPlaceholder": "Identification number"
+    },
+    "baseData": {
+      "legalName": {
+        "label": "Company legal name",
+        "placeholder": "As it appears in the deed"
+      },
+      "legalEntityType": {
+        "label": "Legal entity type"
+      },
+      "annualSales": {
+        "label": "Annual sales",
+        "prefix": "US$",
+        "placeholder": "0.00",
+        "hint": "You can find this figure on your income tax return, financial statements, or an authorized income projection.",
+        "equivalent": "Approximate equivalent: {amount}"
+      },
+      "branch": {
+        "label": "Branch where you wish to be served"
+      }
+    },
+    "footer": {
+      "verify": "Verify company"
+    },
+    "outcomes": {
+      "requestInProgress": {
+        "title": "You already have a request in progress",
+        "message": "We found that you already have a request in progress for this company identification number. Please go back to the dashboard to see the status of your request.",
+        "link": "See my request"
+      },
+      "existingClient": {
+        "title": "You are already a LAFISE client",
+        "message": "We found that you are already a LAFISE client. To request a new account or an additional product, please contact your assigned Business Executive or visit any of our branches.",
+        "action": "Back to home"
+      },
+      "timeout": {
+        "title": "The service is taking too long",
+        "message": "The service is currently experiencing delays. Please try again."
+      },
+      "unavailable": {
+        "title": "We could not verify your company",
+        "message": "The company information could not be verified right now. Please try again in a few minutes or contact support."
+      }
+    },
+    "createFailed": {
+      "title": "We could not create the request",
+      "description": "Your data is still on screen. Try again in a few seconds."
+    },
+    "tooltips": {
+      "legalName": "Enter the full legal name of the company, exactly as it appears in its deed of incorporation.",
+      "annualSales": "This information usually appears in company documents such as the Income Tax Return or Financial Statements. It can also be obtained from an income projection signed by a certified public accountant or legal representative.",
+      "identification": {
+        "NI": "The required identification is the Taxpayer Single Registry number (RUC). It is a 14-character alphanumeric code that appears on the RUC card or in the company's tax returns.",
+        "PA": "The required identification is the company's Taxpayer Single Registry number (RUC), followed by its check digit (DV). You can find it on the Operation Notice, in income tax returns, or in the RUC query of the General Directorate of Revenue. Companies registered before 2014 keep a different format; enter it exactly as it appears on your certificate.",
+        "CR": "The required identification is the Legal Entity ID number (Cédula Jurídica). It is a 10-digit code formatted as 3-101-XXXXXX that appears on the company's legal standing certificate or National Registry certificate.",
+        "HN": "The required identification is the National Tax Registry number (RTN). It is a 14-digit code that appears on tax returns or on the company's official card.",
+        "SV": "The required identification is the Tax Identification Number (NIT). It is a 14-digit code that appears on the company's NIT card or in its returns filed with the Ministry of Finance.",
+        "DO": "The required identification is the National Taxpayer Registry number (RNC). It is a 9- or 11-digit code that identifies the company before the General Directorate of Internal Taxes. You can find it on your tax receipts or incorporation documents."
+      }
+    }
+  }
+}

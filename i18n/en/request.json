@@ -1,0 +1,20 @@
+{
+  "Request": {
+    "headerLabel": "Request navigation",
+    "exit": {
+      "label": "Save and exit",
+      "title": "Do you want to leave the request?",
+      "description": "Everything you have filled in so far is saved. When you come back, you will continue from this same point.",
+      "stay": "Stay here"
+    },
+    "autosave": {
+      "idle": "Autosave",
+      "saving": "Saving…",
+      "error": "Could not save",
+      "tooltip": {
+        "saved": "Saved {relative}. You can leave anytime and pick up from this same point.",
+        "idle": "Your request saves itself as you fill it in. You can leave anytime and pick it up from this same point."
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "RelatedParties": {
+    "missingRoles": {
+      "roles": "Para esta empresa {count, plural, one {falta registrar el rol {roles}} other {faltan los roles {roles}}}.",
+      "positions": "Para esta empresa {count, plural, one {falta cubrir el cargo {positions}} other {faltan los cargos {positions}}}.",
+      "both": "Para esta empresa {roleCount, plural, one {falta registrar el rol {roles}} other {faltan los roles {roles}}}; y {positionCount, plural, one {falta cubrir el cargo {positions}} other {faltan los cargos {positions}}}.",
+      "position": "{position} ({role})"
+    },
+    "ownership": {
+      "tree": "Estructura de propiedad",
+      "holder": "La empresa titular",
+      "holderLower": "la empresa titular",
+      "rootHint": "De aquí cuelga toda la estructura",
+      "sealed": "El cálculo de participación ya se ejecutó: la estructura quedó cerrada y no se edita.",
+      "addLevelOne": "Agregar {noun} de nivel 1",
+      "addTo": "Agregar {noun} de {company} · queda {remaining} %",
+      "full": "{company} ya tiene su capital repartido al 100 %",
+      "edit": "Editar {name}",
+      "remove": "Eliminar {name}",
+      "collapse": "Contraer {name}",
+      "expand": "Desplegar {name}",
+      "hidden": "{count, plural, one {# accionista oculto en esta rama} other {# accionistas ocultos en esta rama}}",
+      "unassigned": "Sin asignar",
+      "over": "El reparto se pasa por {excess} %.",
+      "option": {
+        "holder": "La empresa titular · {capital}",
+        "company": "Nivel {level} · {company} · {capital}",
+        "remaining": "queda {remaining} %",
+        "complete": "completa",
+        "untouched": "sin accionistas todavía"
+      },
+      "gate": {
+        "openBranches": "Faltan por registrar los accionistas de: {names}.",
+        "unbalanced": "Las participaciones de {name} suman {declared} %: cada punto de la estructura debe cuadrar al 100 %.",
+        "stale": "La estructura cambió después del último cálculo, así que el resultado dejó de estar vigente y las marcas de beneficiario final se retiraron. Confirme la estructura nuevamente para poder cerrar.",
+        "cycle": "La estructura registrada contiene una participación circular, así que la participación total no se puede calcular. Corrija el tramo señalado y vuelva a intentarlo. Tramo circular: {path}.",
+        "notConfirmed": "Confirme la estructura para calcular la participación total de cada persona.",
+        "missingComplementary": "{count, plural, one {Falta completar los Datos Complementarios de {list}. Se piden porque su participación total alcanzó el umbral.} other {Faltan los Datos Complementarios de # relacionados que alcanzaron el umbral: {list}.}}",
+        "pending": "{name}, accionista de {company} (nivel {level})"
+      },
+      "confirm": {
+        "unbalanced": "Para calcular, cada punto tiene que cuadrar al 100 %: {points}.",
+        "point": "{name} lleva {declared} %",
+        "openBranches": "Para calcular, falta levantar los accionistas de {names}.",
+        "incomplete": "Para calcular, complete la lista de accionistas de arriba."
+      },
+      "summary": {
+        "title": "Estructura y beneficiarios finales",
+        "threshold": "Umbral {threshold} %",
+        "empty": "Registre a los socios y accionistas para poder levantar la estructura.",
+        "open": "Falta levantar la estructura de {names}. Una sociedad solo cierra la rama si es persona natural, cotiza en bolsa o carece de estructura accionaria.",
+        "registerOf": "Registrar los accionistas de {company}",
+        "repeated": "{names} {count, plural, one {participa} other {participan}} en más de un punto de la estructura. Es la misma sociedad: su estructura se levanta una sola vez y las dos participaciones cuelgan de ella.",
+        "stale": "La estructura cambió después del último cálculo, así que las marcas de beneficiario final se retiraron. Confirme de nuevo para recalcular; los datos ya capturados se conservan.",
+        "rule": "La cadena se sigue bajando con esta misma hoja hasta llegar a personas naturales. Una sociedad solo cierra su rama si cotiza en bolsa o si no tiene estructura accionaria, y en esos dos casos hay que registrar a la persona natural que la representa.",
+        "calculated": "Cálculo ejecutado el {date} con umbral {threshold} %, sobre una estructura que cuadra al 100 %. {count, plural, =0 {Ninguna persona natural lo alcanza.} one {Un beneficiario final identificado.} other {# beneficiarios finales identificados.}}",
+        "sealedHint": "La lista de arriba quedó cerrada: no se agregan ni se eliminan accionistas. Lo que sí se sigue completando es el registro de cada uno.",
+        "reopen": "Editar la estructura",
+        "ready": "Todas las ramas cerraron y todos los puntos cuadran. El cálculo corre sobre la estructura completa, no durante la captura.",
+        "confirm": "Confirmar estructura",
+        "reconfirm": "Volver a confirmar"
+      },
+      "results": {
+        "label": "Personas naturales de la estructura",
+        "person": "Persona",
+        "level": "Nivel",
+        "total": "Participación total",
+        "calculation": "Cálculo",
+        "beneficial": "Beneficiario final",
+        "below": "No alcanza el {threshold} %",
+        "appearances": "Aparece en {count} puntos de la estructura",
+        "showRoute": "Ver recorrido",
+        "direct": "Participa directo"
+      },
+      "breakdown": {
+        "label": "Desglose de la participación",
+        "routeLabel": "Recorrido de la participación",
+        "title": "{name} controla el {total} % de la empresa titular",
+        "oneRoute": "La participación no es directa: pasa por una o más empresas intermedias. Cada parte se multiplica por la anterior, y eso es lo que diluye el porcentaje a medida que la cadena baja.",
+        "manyRoutes": "La participación llega por {count} caminos distintos. Cada uno se calcula por separado y los resultados se suman.",
+        "route": "Camino {index} de {count} · aporta {percentage} %",
+        "level": "Nivel",
+        "who": "Quién, y en qué empresa",
+        "part": "Su parte",
+        "accumulated": "Equivale en la titular",
+        "of": "de {company}",
+        "sum": "La cuenta: {factors} = {result}",
+        "total": "Los {count} caminos suman {total} %."
+      },
+      "failed": {
+        "title": "No pudimos actualizar la estructura",
+        "description": "Intente de nuevo en unos segundos."
+      }
+    },
+    "reclassification": {
+      "message": "El cambio de tipo de persona jurídica modificó los roles exigidos para esta entidad. Debe completar los registros señalados antes de continuar.",
+      "removed": " Al pasar a «{type}» se eliminó {removed}.",
+      "required": " La nueva clasificación exige {roles}."
+    }
+  }
+}

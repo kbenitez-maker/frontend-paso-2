@@ -1,0 +1,132 @@
+{
+  "Steps": {
+    "railLabel": "Pasos de la solicitud",
+    "progress": "Paso {current} de {total}",
+    "subtitle": "{step} · Sección: {block}",
+    "required": "(Requerido)",
+    "company": {
+      "title": "Datos de la empresa"
+    },
+    "economicActivity": {
+      "title": "Actividad económica"
+    },
+    "relatedParties": {
+      "title": "Socios y relacionados"
+    },
+    "referencesAccounts": {
+      "title": "Referencias y cuentas"
+    },
+    "bancanet": {
+      "title": "Bancanet"
+    },
+    "documentChecklist": {
+      "title": "Documentos"
+    },
+    "signature": {
+      "title": "Firma"
+    },
+    "blocks": {
+      "identification": "Identificación de la empresa",
+      "contact": "Contacto y escala del negocio",
+      "governance": "Gobierno corporativo y regulación",
+      "shares": "Tipo de acciones",
+      "declarations": "Declaraciones por país",
+      "address": "Domicilio de la empresa",
+      "branches": "Sucursales y régimen especial",
+      "parent-company": "Casa matriz",
+      "tax-residence": "Residencia fiscal de la empresa",
+      "coverage": "Cobertura operacional",
+      "lawyer": "Abogado constituyente",
+      "administering-company": "Empresa administradora",
+      "activity": "Actividad y sector",
+      "financial": "Información financiera",
+      "counterparties": "Clientes y proveedores",
+      "administrators": "Administradores y junta directiva",
+      "shareholders": "Socios y accionistas",
+      "trust-administrators": "Administración del fideicomiso",
+      "trust-parties": "Partes del fideicomiso",
+      "trust-closing": "Cierre del expediente",
+      "governing-body": "Administradores y órgano de gobierno",
+      "holder-listing": "Cotización en bolsa de la empresa titular",
+      "references": "Referencias comerciales o bancarias",
+      "accounts": "Cuentas solicitadas",
+      "superusers": "Superusuarios de Bancanet",
+      "features": "Funcionalidades de Bancanet",
+      "confirm": "Confirmación de datos",
+      "bank-documents": "Documentos del banco",
+      "tax-id": "Identificación fiscal y FATCA",
+      "stock-exchange": "Bolsa de valores",
+      "other-institutions": "Otras instituciones financieras",
+      "approvals": "Aprobaciones transaccionales",
+      "legal-documents": "Documentos de la empresa",
+      "representatives-documents": "Representantes y firmantes",
+      "board-documents": "Junta directiva",
+      "shareholders-documents": "Accionistas y beneficiarios",
+      "fiduciary-documents": "Administradores y figuras fiduciarias",
+      "financial-documents": "Documentos financieros",
+      "regulatory-documents": "Documentos regulatorios",
+      "document-declarations": "Declaraciones"
+    },
+    "rail": {
+      "title": "Solicitud de cuenta jurídica",
+      "progressLabel": "Progreso de la solicitud",
+      "fields": "{completed}/{total} {total, plural, one {campo} other {campos}}",
+      "documents": "{completed}/{total} {total, plural, one {documento} other {documentos}}",
+      "steps": "{completed}/{total} {total, plural, one {paso} other {pasos}}",
+      "expand": "Ver las secciones de {step}",
+      "collapse": "Cerrar las secciones de {step}",
+      "blocksLabel": "Secciones de {step}",
+      "state": {
+        "not_started": "Sin comenzar",
+        "in_progress": "Pendiente",
+        "complete": "Completado"
+      },
+      "countries": {
+        "NI": "Nicaragua",
+        "PA": "Panamá",
+        "CR": "Costa Rica",
+        "HN": "Honduras",
+        "SV": "El Salvador",
+        "DO": "Rep. Dominicana"
+      },
+      "fieldsComplete": "{total, plural, one {# campo completo} other {# campos completos}}",
+      "documentsComplete": "{total, plural, one {# documento completo} other {# documentos completos}}",
+      "stepsComplete": "{total, plural, one {# paso completo} other {# pasos completos}}",
+      "confirmComplete": "Confirmado",
+      "declarationsComplete": "Aceptadas",
+      "blockComplete": "Sección completa",
+      "waitingHint": {
+        "documentChecklist": "Confirme sus datos primero. De esos datos depende qué se le pide aquí."
+      },
+      "waiting": {
+        "default": "Espera un paso previo",
+        "shareholders": "Complete Administradores y junta directiva: desde ahí reconocemos a quien ya registró",
+        "trust-parties": "Registre primero al Gestor de la Fiduciaria, al Representante Legal y a los Firmantes",
+        "trust-closing": "Registre al fideicomitente y a los beneficiarios en Partes del fideicomiso"
+      }
+    },
+    "footer": {
+      "help": "¿Necesita ayuda con su solicitud?",
+      "previous": "Regresar",
+      "next": "Continuar"
+    },
+    "optional": "(Opcional)",
+    "help": {
+      "applicant": "Usted",
+      "officer": "Banco LAFISE",
+      "from": "Desde {step}",
+      "ask": "Cuéntenos su duda",
+      "another": "Escribir otra consulta",
+      "placeholder": "Por ejemplo: no sé cuál es el equivalente del RNC en mi país.",
+      "empty": "Escriba su consulta antes de enviarla.",
+      "send": "Enviar consulta",
+      "whatsapp": "Escribir por WhatsApp",
+      "sent": "Registramos su consulta. Quien lleva su solicitud le responde por correo, y aquí queda el historial.",
+      "sentFrom": "Registramos su consulta desde {step}. Quien lleva su solicitud le responde por correo, y aquí queda el historial.",
+      "failed": {
+        "title": "No pudimos enviar su consulta",
+        "description": "Su texto sigue aquí. Intente de nuevo en unos segundos."
+      }
+    }
+  }
+}

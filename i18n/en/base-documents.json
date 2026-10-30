@@ -1,0 +1,44 @@
+{
+  "BaseDocuments": {
+    "card": {
+      "title": "Your company documents",
+      "descriptionPending": "Upload these {count} documents to get started. With them we read your company details and save you from typing them.",
+      "descriptionComplete": "You have everything. You can continue with the request."
+    },
+    "footer": {
+      "next": "Continue with the request"
+    },
+    "upload": {
+      "prompt": "Drag the file here or click to choose it",
+      "hint": "{types} · max. {mb} MB",
+      "progressLabel": "Progress",
+      "remaining": "About {seconds} s left",
+      "finishing": "Finishing…",
+      "sent": "{loaded} of {total}",
+      "preview": "Preview {name}",
+      "previewUnavailable": "{name} cannot be shown in this browser.",
+      "replace": "Replace {name}",
+      "downloadTemplate": "Download template",
+      "remove": "Delete {name}",
+      "fromProfile": "Uploaded when identifying your company"
+    },
+    "errors": {
+      "invalidFile": "The file does not meet the allowed format or size (Maximum {mb}MB in {types}). Make sure the document is legible.",
+      "uploadFailed": {
+        "title": "The file could not be uploaded",
+        "description": "Try again in a few seconds."
+      },
+      "removeFailed": {
+        "title": "The file could not be deleted",
+        "description": "Try again in a few seconds."
+      }
+    },
+    "preview": {
+      "label": "Document preview",
+      "loading": "Loading document…",
+      "unavailable": "The preview could not be loaded.",
+      "retry": "Retry",
+      "pdfUnavailable": "{name} cannot be shown in this browser."
+    }
+  }
+}

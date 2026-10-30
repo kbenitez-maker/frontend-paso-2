@@ -1,0 +1,298 @@
+{
+  "Form": {
+    "optional": "(Opcional)",
+    "tooltipTrigger": "Qué significa: {label}",
+    "yes": "Sí",
+    "no": "No",
+    "preview": {
+      "readOnly": "Vista previa: los cambios no se guardan."
+    },
+    "placeholder": {
+      "text": "Escriba aquí",
+      "textLong": "Escriba el detalle",
+      "number": "Solo números",
+      "email": "nombre@dominio.com",
+      "url": "https://",
+      "select": "Seleccione una opción",
+      "date": "Seleccione una fecha"
+    },
+    "catalog": {
+      "unavailable": "Catálogo no disponible",
+      "retry": "Reintentar",
+      "loading": "Cargando opciones…",
+      "waitingParent": "Seleccione primero el dato anterior",
+      "empty": "Sin opciones disponibles"
+    },
+    "hints": {
+      "notFuture": "No puede ser una fecha futura.",
+      "notBefore": "Debe ser igual o posterior a: {field}.",
+      "notAfter": "Debe ser igual o anterior a: {field}.",
+      "notAbove": "No puede ser mayor que: {field}.",
+      "minValue": "Valor mínimo: {value}.",
+      "maxValue": "Valor máximo: {value}."
+    },
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "min": "El valor es menor al mínimo permitido.",
+      "max": "El valor supera el máximo permitido.",
+      "not_future": "La fecha no puede ser futura.",
+      "max_years_ago": "Revise la fecha: la persona tendría más de 120 años.",
+      "prohibited_country": "Este país requiere que se presente en una sucursal. No es posible continuar en línea.",
+      "identification_number": "Use solo letras, números, puntos y guiones, con al menos 5 letras o números.",
+      "url": "Ingrese un enlace válido.",
+      "email": "Ingrese un correo electrónico válido.",
+      "gte_field": "El valor es anterior al mínimo permitido.",
+      "lte_field": "El valor es posterior al máximo permitido.",
+      "read_only": "Este dato viene del perfilado y no se puede modificar.",
+      "phone": "Ingrese un número de teléfono válido, solo dígitos.",
+      "min_items": "Faltan registros por agregar.",
+      "max_items": "Superó la cantidad máxima de registros.",
+      "powers_not_reviewed": "Revise los poderes otorgados antes de cerrar la sección.",
+      "trust_holder_mismatch": "Si el titular es la sociedad fiduciaria a nombre propio, la solicitud no corresponde a esta ruta. Un ejecutivo se pondrá en contacto con usted.",
+      "beneficiaries_as_class": "Un beneficiario descrito solo como clase no puede registrarse. Un ejecutivo se pondrá en contacto con usted.",
+      "optional_figures_not_reviewed": "Registre en la sección de Administración a las figuras que el contrato prevea antes de cerrar.",
+      "unmapped_entity_type": "No pudimos determinar el tipo de registro que le corresponde a esta entidad. Un ejecutivo se pondrá en contacto con usted.",
+      "exceeds_share_capital": "No puede ser mayor que el capital social.",
+      "exceeds_total_assets": "No puede ser mayor que el total activo.",
+      "credits_exceed_sales": "Error en perfil transaccional: el monto de créditos excede las ventas anuales declaradas de la empresa.",
+      "debits_exceed_credits": "Error en perfil transaccional: el monto de débitos supera a los créditos esperados.",
+      "no_feature_enabled": "Debe seleccionar al menos una funcionalidad en Sí para habilitar el servicio de Bancanet.",
+      "joint_signers": "La firma conjunta exige al menos dos firmantes registrados.",
+      "ownership_cycle": "Esta persona ya participa más arriba en esta misma rama: registrarla aquí cerraría un círculo en la estructura.",
+      "body_name": "Eso nombra al órgano, no a quien lo integra. El comité técnico se registra con un registro por cada integrante y el cargo que ocupa: sin eso queda sin identificar quién instruye al fiduciario.",
+      "committee_as_one": "El comité técnico está registrado como un solo relacionado con los tres cargos. Registre a cada integrante por separado, con el cargo que ocupa: el expediente tiene que identificar a las personas, no al órgano.",
+      "party_as_class": "Esto describe a un grupo, no a una persona. El contrato tiene que identificar a cada beneficiario por su nombre: un beneficiario descrito solo como clase no puede registrarse y deja el expediente sin las personas que hay que conocer.",
+      "person_unlisted": "La persona seleccionada ya no está registrada en la solicitud. Seleccione otra antes de continuar.",
+      "signer_unlisted": "Se modificaron los firmantes registrados en la sección de Administradores. Debe configurar nuevamente el esquema de firma de la cuenta señalada antes de continuar.",
+      "superuser_unlisted": "Se modificaron los Representantes Legales o Firmantes registrados. Debe designar nuevamente al Superusuario de BancaNet señalado antes de continuar.",
+      "invalid": "El valor no es válido."
+    },
+    "collection": {
+      "noun": "registro",
+      "add": "Agregar {noun}",
+      "new": "{gender, select, female {Nueva} other {Nuevo}} {noun}",
+      "item": "{noun} {index}",
+      "save": "Guardar {noun}",
+      "cancel": "Cancelar",
+      "back": "Volver",
+      "edit": "Editar {noun} {index}",
+      "remove": "Eliminar {noun} {index}",
+      "empty": "Todavía no ha agregado {gender, select, female {ninguna} other {ningún}} {noun}.",
+      "countMin": "{count} de mínimo {min}",
+      "minItems": "Agregue al menos {min, plural, one {# registro} other {# registros}} para continuar.",
+      "countMax": "{count} de máximo {max}",
+      "count": "{count, plural, one {# registro} other {# registros}}",
+      "maxReached": "Alcanzó el máximo de {max}.",
+      "unfilled": "Registro sin completar",
+      "incompleteItems": "Faltan campos por llenar en {items}.",
+      "tabs": "Grupos de datos del registro",
+      "tabEmpty": "Todavía no hay nada que llenar aquí. Estos datos se piden según lo que vaya respondiendo en el registro y en la estructura.",
+      "known": "{name} ya está registrada en {section}. Sus datos vienen de ahí y no se vuelven a pedir; quedan a la vista para que verifique que es la misma persona. Lo que falte abajo sí debe llenarlo.",
+      "someone": "Esta persona",
+      "duplicate": {
+        "title": "Esta persona ya está en la lista",
+        "description": "Se identifica por tipo y número de identificación, no por el nombre.",
+        "notice": "Esta persona ya está registrada como {noun}. ¿Desea agregarle un rol adicional?",
+        "open": "Abrir el registro existente",
+        "stay": "Seguir aquí"
+      },
+      "groups": {
+        "general": "Datos generales",
+        "personal": "Datos personales",
+        "pep": "Datos de persona expuesta políticamente",
+        "public_figure": "Datos de persona notoriamente pública",
+        "company": "Datos generales de la empresa",
+        "stock_exchange": "Datos de bolsa de valores",
+        "representative": "Datos del representante",
+        "natural_complementary": "Datos complementarios de persona natural",
+        "dependents": "Personas dependientes",
+        "own_business": "Información de negocio propio",
+        "economic_profile": "Perfil económico",
+        "employment": "Información laboral",
+        "personal_references": "Referencias personales",
+        "spouse": "Información del cónyuge",
+        "spouse_employment": "Datos laborales del cónyuge",
+        "spouse_additional": "Datos adicionales del cónyuge",
+        "tax_self_certification": "Autocertificación de residencia fiscal",
+        "tax_residences": "Residencia fiscal",
+        "minority_shareholders": "Socios y accionistas"
+      }
+    },
+    "collections": {
+      "references": {
+        "label": "Referencias de la empresa",
+        "noun": "referencia",
+        "gender": "female",
+        "missing": "Debe agregar al menos 2 referencias (comerciales, bancarias o combinadas) para poder continuar con la solicitud."
+      },
+      "accounts": {
+        "label": "Cuentas bancarias de la empresa",
+        "noun": "cuenta",
+        "gender": "female",
+        "tabs": {
+          "setup": "Configuración",
+          "checkbook_card": "Chequera y tarjeta",
+          "compliance": "Cumplimiento",
+          "transactional_profile": "Perfil transaccional",
+          "signers": "Firmantes",
+          "transfers": "Transferencias"
+        },
+        "missing": "Debe seleccionar y configurar al menos una (1) cuenta bancaria para continuar con la solicitud."
+      },
+      "additional_cards": {
+        "label": "Tarjetas adicionales",
+        "noun": "tarjeta",
+        "gender": "female"
+      },
+      "authorized_persons": {
+        "label": "Personas autorizadas",
+        "noun": "persona autorizada",
+        "gender": "female"
+      },
+      "signers": {
+        "label": "Firmantes de la cuenta",
+        "noun": "firmante",
+        "gender": "male"
+      },
+      "outgoing_transfers": {
+        "label": "Transferencias a enviar",
+        "noun": "transferencia",
+        "gender": "female"
+      },
+      "incoming_transfers": {
+        "label": "Transferencias a recibir",
+        "noun": "transferencia",
+        "gender": "female"
+      },
+      "clients": {
+        "label": "Principales clientes de la empresa",
+        "noun": "cliente",
+        "gender": "male",
+        "missing": "Debe registrar al menos un cliente para continuar con la solicitud."
+      },
+      "suppliers": {
+        "label": "Principales proveedores de la empresa",
+        "noun": "proveedor",
+        "gender": "male",
+        "missing": "Debe registrar al menos un proveedor para continuar con la solicitud."
+      },
+      "superusers": {
+        "label": "Superusuarios designados",
+        "noun": "superusuario",
+        "gender": "male"
+      },
+      "tax_residences": {
+        "label": "Países de residencia fiscal",
+        "noun": "país fiscal",
+        "gender": "male"
+      },
+      "shareholders": {
+        "label": "Estructura de propiedad",
+        "noun": "accionista",
+        "gender": "male",
+        "duplicate": "Esta persona ya participa en esta empresa. ¿Desea modificar ese porcentaje?"
+      },
+      "administrators": {
+        "label": "Administradores registrados",
+        "noun": "administrador",
+        "gender": "male",
+        "tabs": {
+          "basic": "Datos básicos",
+          "complementary": "Información complementaria",
+          "administrative": "Rol administrativo"
+        }
+      },
+      "trust_parties": {
+        "label": "Partes registradas",
+        "help": "En un fideicomiso no se pide proporción. Se registran todos los fideicomitentes, sin importar cuánto aportó cada uno, y todos los beneficiarios que el contrato identifique, sin filtrar por porcentaje. Tampoco hay beneficiario final que se desprenda de una participación. El fideicomisario en remanente entra bajo el mismo rol de beneficiario. De una persona jurídica que es parte del fideicomiso se registran sus datos y los de quien la representa, y nada más. Su estructura accionaria no se levanta, tenga o no accionistas: en un fideicomiso el control lo define el contrato, no la propiedad.",
+        "noun": "parte",
+        "gender": "female",
+        "tabs": {
+          "basic": "Datos básicos"
+        }
+      },
+      "trust_administrators": {
+        "label": "Administradores del fideicomiso",
+        "help": "Los datos salen del contrato de fideicomiso y de sus adendas: quién administra el patrimonio, quién representa legalmente la cuenta y quiénes están autorizados a moverla. El apoderado, el protector, el supervisor y el comité técnico se registran solo si el contrato los prevé.",
+        "noun": "administrador",
+        "gender": "male",
+        "tabs": {
+          "basic": "Datos básicos",
+          "administrative": "Rol administrativo"
+        }
+      },
+      "shareholder_tax_residences": {
+        "label": "Países de residencia fiscal",
+        "noun": "país fiscal",
+        "gender": "male"
+      },
+      "admin_dependents": {
+        "label": "Personas dependientes",
+        "noun": "persona dependiente",
+        "gender": "female"
+      },
+      "admin_personal_references": {
+        "label": "Referencias personales",
+        "noun": "referencia personal",
+        "gender": "female"
+      },
+      "admin_tax_residences": {
+        "label": "Países de residencia fiscal",
+        "noun": "país fiscal",
+        "gender": "male"
+      },
+      "trust_admin_dependents": {
+        "label": "Personas dependientes",
+        "noun": "persona dependiente",
+        "gender": "female"
+      },
+      "trust_admin_personal_references": {
+        "label": "Referencias personales",
+        "noun": "referencia personal",
+        "gender": "female"
+      },
+      "trust_admin_tax_residences": {
+        "label": "Países de residencia fiscal",
+        "noun": "país fiscal",
+        "gender": "male"
+      },
+      "trust_party_tax_residences": {
+        "label": "Países de residencia fiscal",
+        "noun": "país fiscal",
+        "gender": "male"
+      },
+      "financial_institutions": {
+        "label": "Agregue las instituciones financieras",
+        "noun": "institución financiera",
+        "gender": "female",
+        "missing": "Debe registrar al menos una institución financiera para continuar."
+      },
+      "customers": {
+        "label": "Agregue a los principales clientes de la empresa",
+        "noun": "cliente",
+        "gender": "male",
+        "missing": "Debe registrar a sus clientes para continuar.",
+        "help": "Asegúrese de que sean los clientes que concentran el 80% de la facturación o los ingresos de la empresa."
+      },
+      "suppliers": {
+        "label": "Agregue a los principales proveedores de la empresa",
+        "noun": "proveedor",
+        "gender": "male",
+        "missing": "Debe registrar a sus proveedores para continuar.",
+        "help": "Asegúrese de que sean los proveedores que concentran el 80% de las compras o los costos de la empresa."
+      }
+    },
+    "loadError": {
+      "message": "No se pudo cargar esta sección. Revise su conexión e intente de nuevo.",
+      "retry": "Reintentar"
+    },
+    "saveFailed": {
+      "title": "No se pudo guardar",
+      "description": "Sus datos siguen en pantalla. Intente de nuevo en unos segundos."
+    },
+    "hiddenFieldError": {
+      "title": "No se pudo validar la sección",
+      "description": "Esta sección contiene errores de validación que no aparecen en los campos visibles."
+    }
+  }
+}

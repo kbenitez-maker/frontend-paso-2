@@ -1,0 +1,20 @@
+packages:
+  - '.'
+
+autoInstallPeers: true
+
+enablePrePostScripts: true
+
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  - '@lafise/*'
+
+nodeLinker: hoisted
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
+  - esbuild
+  - sharp
+  - unrs-resolver

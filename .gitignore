@@ -1,0 +1,97 @@
+# Dependencies
+node_modules
+
+# Output
+out
+dist
+build
+*.tgz
+
+# Environment Variables
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Next
+.next
+next-env.d.ts
+
+# Eslint
+.eslintcache
+
+# Coverage
+coverage
+lib-cov
+*.lcov
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Storybook
+storybook-static
+*storybook.log
+
+# CSpell
+.cspellcache
+
+# Cache
+.cache
+
+# Logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# Diagnostic Reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IntelliJ based IDEs
+.idea
+
+# macOS
+.DS_Store
+
+# Claude Code (local settings only; launch.json is shared)
+.claude/settings.local.json
+
+# Reports
+reports
+
+# Contracts inventory: the XLSX export is downloaded manually; snapshot.json is versioned
+contracts/inventory/source/*.xlsx
+
+# --- Blueprint workspace ---
+# SDD spec artifacts are ephemeral on disk — durable state lives in the
+# Blueprint memory store (~/.blueprint/local.db). See docs/ROADMAP.md.
+specs/
+.blueprint/state/
+.blueprint/cache/
+# Agent skill links are per-user symlinks into a global cache; recreate
+# them with `blueprint skills sync`. The .blueprint/skills.manifest.json IS committed.
+.agents/skills/
+.cursor/skills/
+.claude/skills/
+
+# Inventory XLSX downloaded from Drive (binary, re-downloadable; snapshot.json is the versioned text form)
+contracts/inventory/source/*.xlsx
+
+# Local agent tooling (per-developer, not project code)
+.blueprint/
+.claude/launch.json
+.cursor/
+.mcp.json
+.specify/
+.vscode/mcp.json
+opencode.json

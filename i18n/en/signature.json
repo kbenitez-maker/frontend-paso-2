@@ -1,0 +1,52 @@
+{
+  "Signature": {
+    "phases": {
+      "locked": {
+        "label": "Locked",
+        "title": "First finish uploading your documents",
+        "detail": "We build these documents with the information we already validated, so we cannot generate them until you complete the checklist of the previous step."
+      },
+      "in_review": {
+        "label": "In review",
+        "title": "Now it is our turn",
+        "detail": "We are reviewing what you uploaded. When we finish, the documents you have to sign will appear here."
+      },
+      "available": {
+        "label": "Ready to sign",
+        "title": "Your documents are here",
+        "detail": "We finished reviewing your documentation and generated the forms. Download them, sign them and upload them back right here."
+      },
+      "returned": {
+        "label": "With remarks",
+        "title": "Some documents need review",
+        "detail": "We returned the documents below with remarks. Fix only those: what we already approved is not reopened."
+      }
+    },
+    "milestones": {
+      "received": {
+        "title": "We received your documentation",
+        "detail": "Everything you uploaded in the previous step is on record."
+      },
+      "review": {
+        "title": "We review it",
+        "detail": "It takes 1 to 3 business days. Then we generate the documents you have to sign."
+      },
+      "sign": {
+        "title": "You sign and close",
+        "detail": "We will write to you when they are ready. You download them, sign them and upload them here."
+      }
+    },
+    "milestonesLabel": "How your process continues",
+    "arrival": {
+      "available": "We finished reviewing your documents and generated the forms. Download them, sign them and send them back."
+    },
+    "goToChecklist": "Go to what is missing",
+    "footer": {
+      "finish": "Finish"
+    },
+    "submitFailed": {
+      "title": "We could not submit your request",
+      "description": "Check your connection and try again. Your documents are still saved."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "Zignd.html-css-class-completion",
+    "ms-vscode.vscode-typescript-next",
+    "yzhang.markdown-all-in-one",
+    "MermaidChart.vscode-mermaid-chart",
+    "DavidAnson.vscode-markdownlint",
+    "christian-kohler.path-intellisense",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode",
+    "YoavBls.pretty-ts-errors",
+    "foxundermoon.shell-format",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "bradlc.vscode-tailwindcss",
+    "meganrogge.template-string-converter",
+    "vitest.explorer",
+    "google.gemini-cli-vscode-ide-companion",
+    "SonarSource.sonarlint-vscode"
+  ]
+}

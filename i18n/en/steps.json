@@ -1,0 +1,132 @@
+{
+  "Steps": {
+    "railLabel": "Request steps",
+    "progress": "Step {current} of {total}",
+    "subtitle": "{step} · Section: {block}",
+    "required": "(Required)",
+    "company": {
+      "title": "Company details"
+    },
+    "economicActivity": {
+      "title": "Economic activity"
+    },
+    "relatedParties": {
+      "title": "Partners and related parties"
+    },
+    "referencesAccounts": {
+      "title": "References and accounts"
+    },
+    "bancanet": {
+      "title": "Bancanet"
+    },
+    "documentChecklist": {
+      "title": "Documents"
+    },
+    "signature": {
+      "title": "Signature"
+    },
+    "blocks": {
+      "identification": "Company identification",
+      "contact": "Contact and business size",
+      "governance": "Corporate governance and regulation",
+      "shares": "Share type",
+      "declarations": "Declarations by country",
+      "address": "Company address",
+      "branches": "Branches and special regime",
+      "parent-company": "Parent company",
+      "tax-residence": "Company tax residence",
+      "coverage": "Operational coverage",
+      "lawyer": "Incorporating lawyer",
+      "administering-company": "Administering company",
+      "activity": "Activity and sector",
+      "financial": "Financial information",
+      "counterparties": "Customers and suppliers",
+      "administrators": "Administrators and board of directors",
+      "shareholders": "Partners and shareholders",
+      "trust-administrators": "Trust administration",
+      "trust-parties": "Trust parties",
+      "trust-closing": "File closing",
+      "governing-body": "Administrators and governing body",
+      "holder-listing": "Stock exchange listing of the holder company",
+      "references": "Commercial or bank references",
+      "accounts": "Requested accounts",
+      "superusers": "Bancanet superusers",
+      "features": "Bancanet features",
+      "confirm": "Data confirmation",
+      "bank-documents": "Bank documents",
+      "tax-id": "Tax ID and FATCA",
+      "stock-exchange": "Stock exchange",
+      "other-institutions": "Other financial institutions",
+      "approvals": "Transactional approvals",
+      "legal-documents": "Company documents",
+      "representatives-documents": "Representatives and signatories",
+      "board-documents": "Board of directors",
+      "shareholders-documents": "Shareholders and beneficiaries",
+      "fiduciary-documents": "Administrators and fiduciary roles",
+      "financial-documents": "Financial documents",
+      "regulatory-documents": "Regulatory documents",
+      "document-declarations": "Declarations"
+    },
+    "rail": {
+      "title": "Business account request",
+      "progressLabel": "Request progress",
+      "fields": "{completed}/{total} {total, plural, one {field} other {fields}}",
+      "documents": "{completed}/{total} {total, plural, one {document} other {documents}}",
+      "steps": "{completed}/{total} {total, plural, one {step} other {steps}}",
+      "expand": "Show the sections of {step}",
+      "collapse": "Hide the sections of {step}",
+      "blocksLabel": "Sections of {step}",
+      "state": {
+        "not_started": "Not started",
+        "in_progress": "Pending",
+        "complete": "Completed"
+      },
+      "countries": {
+        "NI": "Nicaragua",
+        "PA": "Panama",
+        "CR": "Costa Rica",
+        "HN": "Honduras",
+        "SV": "El Salvador",
+        "DO": "Dominican Rep."
+      },
+      "fieldsComplete": "{total, plural, one {# field completed} other {# fields completed}}",
+      "documentsComplete": "{total, plural, one {# document completed} other {# documents completed}}",
+      "stepsComplete": "{total, plural, one {# step completed} other {# steps completed}}",
+      "confirmComplete": "Confirmed",
+      "declarationsComplete": "Accepted",
+      "blockComplete": "Section complete",
+      "waitingHint": {
+        "documentChecklist": "Confirm your details first. What is asked here depends on them."
+      },
+      "waiting": {
+        "default": "Waiting for an earlier step",
+        "shareholders": "Complete Administrators and board of directors: from there we recognize who you already registered",
+        "trust-parties": "First register the trust company manager, the legal representative and the signatories",
+        "trust-closing": "Register the settlor and the beneficiaries in Trust parties"
+      }
+    },
+    "footer": {
+      "help": "Need help with your request?",
+      "previous": "Back",
+      "next": "Continue"
+    },
+    "optional": "(Optional)",
+    "help": {
+      "applicant": "You",
+      "officer": "LAFISE Bank",
+      "from": "From {step}",
+      "ask": "Tell us your question",
+      "another": "Write another inquiry",
+      "placeholder": "For example: I do not know the equivalent of the RNC in my country.",
+      "empty": "Write your inquiry before sending it.",
+      "send": "Send inquiry",
+      "whatsapp": "Write on WhatsApp",
+      "sent": "We registered your inquiry. Whoever handles your request will answer by email, and the history stays here.",
+      "sentFrom": "We registered your inquiry from {step}. Whoever handles your request will answer by email, and the history stays here.",
+      "failed": {
+        "title": "We could not send your inquiry",
+        "description": "Your text is still here. Try again in a few seconds."
+      }
+    }
+  }
+}

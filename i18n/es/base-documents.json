@@ -1,0 +1,44 @@
+{
+  "BaseDocuments": {
+    "card": {
+      "title": "Documentos de su empresa",
+      "descriptionPending": "Suba estos {count} documentos para empezar. Con ellos leemos los datos de su empresa y le ahorramos escribirlos.",
+      "descriptionComplete": "Ya tiene todo. Puede continuar con la solicitud."
+    },
+    "footer": {
+      "next": "Continuar con la solicitud"
+    },
+    "upload": {
+      "prompt": "Arrastre el archivo o haga clic para elegirlo",
+      "hint": "{types} · máx. {mb} MB",
+      "progressLabel": "Progreso",
+      "remaining": "Quedan {seconds} s aprox.",
+      "finishing": "Terminando…",
+      "sent": "{loaded} de {total}",
+      "preview": "Vista previa de {name}",
+      "previewUnavailable": "{name} no se puede mostrar en este navegador.",
+      "replace": "Reemplazar {name}",
+      "downloadTemplate": "Descargar formato",
+      "remove": "Eliminar {name}",
+      "fromProfile": "Cargado al identificar su empresa"
+    },
+    "errors": {
+      "invalidFile": "El archivo no cumple con el formato o tamaño permitido (Máximo {mb}MB en {types}). Asegúrese de que el documento sea legible.",
+      "uploadFailed": {
+        "title": "No se pudo subir el archivo",
+        "description": "Intente de nuevo en unos segundos."
+      },
+      "removeFailed": {
+        "title": "No se pudo eliminar el archivo",
+        "description": "Intente de nuevo en unos segundos."
+      }
+    },
+    "preview": {
+      "label": "Previsualización del documento",
+      "loading": "Cargando documento…",
+      "unavailable": "No se pudo cargar la previsualización.",
+      "retry": "Reintentar",
+      "pdfUnavailable": "{name} no se puede mostrar en este navegador."
+    }
+  }
+}

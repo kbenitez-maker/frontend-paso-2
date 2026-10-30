@@ -1,0 +1,18 @@
+{
+  "Survey": {
+    "question": "¿Qué tan probable es que recomiende a Banco LAFISE para apertura de cuenta a empresas a otro colega o empresa?",
+    "scale": "1 es nada probable y 10 es muy probable.",
+    "scaleLabel": "Puntuación de 1 a 10",
+    "improve": "¿Cómo podemos mejorar para servirle mejor?",
+    "liked": "¡Nos alegra su puntuación! ¿Qué fue lo que más le gustó de la experiencia en LAFISE?",
+    "placeholder": "Escriba aquí",
+    "optional": "Responder es opcional.",
+    "category": "Su respuesta nos llega como {category, select, detractor {Detractor} passive {Neutro} other {Promotor}}.",
+    "skip": "Omitir",
+    "send": "Enviar",
+    "failed": {
+      "title": "No pudimos enviar su respuesta",
+      "description": "Revise su conexión e intente de nuevo. No perdimos lo que escribió."
+    }
+  }
+}

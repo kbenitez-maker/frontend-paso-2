@@ -1,0 +1,22 @@
+node_modules
+pnpm-lock.yaml
+
+.next
+coverage
+reports
+
+# Local agent tooling (not project code)
+.agents
+.blueprint
+.cursor
+.mcp.json
+.specify
+.vscode
+.zed
+opencode.json
+.claude
+.codex
+.gemini
+
+# Pipeline files owned by DevOps (non-JSON placeholders)
+.azuredevops

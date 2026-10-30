@@ -1,0 +1,22 @@
+{
+  "Submitted": {
+    "title": "We received your documents",
+    "next": "We will review them and email you when there is news.",
+    "thanks": "Thank you for your feedback! It helps us keep improving for you.",
+    "progressLabel": "Request progress",
+    "reference": "Request {number} · {milestones} stages ahead",
+    "goToRequests": "Go to my requests",
+    "status": {
+      "draft": "Request pending",
+      "returned_to_client": "Waiting for documents",
+      "submitted": "Documents received",
+      "in_review": "In legal review",
+      "paused_compliance": "Under verification",
+      "bank_documents_generated": "Bank documents generated",
+      "approved": "Approved",
+      "account_opened": "Completed",
+      "rejected": "Closed",
+      "cancelled": "Closed"
+    }
+  }
+}

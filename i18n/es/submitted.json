@@ -1,0 +1,22 @@
+{
+  "Submitted": {
+    "title": "Recibimos su documentación",
+    "next": "Vamos a revisarla y le avisamos por correo cuando tengamos novedades.",
+    "thanks": "¡Gracias por sus comentarios! Nos ayudan a seguir mejorando para usted.",
+    "progressLabel": "Avance de la solicitud",
+    "reference": "Solicitud {number} · {milestones} etapas por delante",
+    "goToRequests": "Ir a mis solicitudes",
+    "status": {
+      "draft": "Solicitud pendiente",
+      "returned_to_client": "Esperando documentos",
+      "submitted": "Documentos recibidos",
+      "in_review": "En revisión legal",
+      "paused_compliance": "En verificación",
+      "bank_documents_generated": "Documentos bancarios generados",
+      "approved": "Aprobada",
+      "account_opened": "Finalizado",
+      "rejected": "Cerrado caído",
+      "cancelled": "Cerrado caído"
+    }
+  }
+}

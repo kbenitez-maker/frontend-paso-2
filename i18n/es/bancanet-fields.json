@@ -1,0 +1,47 @@
+{
+  "BancanetFields": {
+    "labels": {
+      "assign_registered_signatory": "¿Desea asignar como superusuario de Bancanet a un representante legal o firmante previamente registrado?",
+      "registered_signatory_id": "Nombre completo",
+      "first_name": "Primer nombre",
+      "second_name": "Segundo nombre",
+      "first_last_name": "Primer apellido",
+      "second_last_name": "Segundo apellido",
+      "identification_type_id": "Tipo de identificación",
+      "identification_number": "No. de identificación",
+      "email": "Correo electrónico",
+      "mobile_phone": "Número celular",
+      "second_factor": "Segundo factor de autenticación",
+      "birth_country_id": "País de nacimiento",
+      "residence_country_id": "País de residencia",
+      "second_nationality_id": "Indique si posee una segunda nacionalidad",
+      "address_detail": "Dirección detallada",
+      "approval_type_id": "Indique el tipo de aprobación transaccional",
+      "approver_superuser_id": "Seleccione al superusuario que aprobará las transacciones",
+      "mark_all_features": "¿Desea marcar todas las funcionalidades en Sí?",
+      "transfer_third_party_same_country": "Transferir - Terceros LAFISE mismo país: permite transferir fondos a otras cuentas de terceros en Banco LAFISE.",
+      "transfer_third_party_regional": "Transferir - Terceros LAFISE regional: permite transferir fondos a otras cuentas de terceros en el resto de bancos del Grupo Financiero LAFISE.",
+      "transfer_abroad": "Transferir - al exterior: permite realizar transferencias de fondos a bancos en otros países.",
+      "manage_permissions": "Administrar - Permisos: permite al superusuario otorgar permisos a los usuarios previamente designados por él, para consultar, preparar y aprobar transacciones monetarias o no monetarias.",
+      "manage_daily_limits": "Administrar - Límites diarios de transacción: permite al superusuario establecer límites máximos en las transacciones de los usuarios previamente designados por él.",
+      "manage_audits": "Administrar - Auditorías: permite al superusuario verificar los permisos y transferencias que han realizado los usuarios previamente designados por él.",
+      "manage_lafiservicios_subscriptions": "Administrar - Suscripciones para LAFISERVICIOS: permite modificar y eliminar los servicios a pagar que el cliente registró previamente.",
+      "manage_debit_card_pin_change": "Gestionar - Cambio de PIN de tarjeta de débito: permite generar un nuevo PIN para la tarjeta de débito.",
+      "personal_settings_ni": "Configuración - Mi configuración personal: permite seleccionar las vías por las cuales desea recibir las notificaciones de las transacciones realizadas.",
+      "personal_settings_cr": "Configuración - Mi configuración personal: permite seleccionar las vías por las cuales desea recibir las notificaciones de las transacciones realizadas.",
+      "pay_lafiservicios": "Pagar - LAFISERVICIOS: permite realizar pagos a terceros, sean entidades públicas o privadas, prestadoras de servicios que hayan contratado con Banco LAFISE esta opción de pago.",
+      "pay_third_party_credit_card": "Pagar - Tarjeta de crédito a terceros: permite pagar la tarjeta de crédito de terceros en Banco LAFISE.",
+      "pay_own_credit_card": "Tarjetas de crédito - Pago de tarjeta propia: permite pagar el saldo de la tarjeta de crédito propia en Banco LAFISE.",
+      "pay_third_party_loans": "Pagar - Préstamos a terceros: permite pagar préstamos de terceros en Banco LAFISE.",
+      "pay_suppliers": "Pagar - Proveedores: permite realizar pagos a proveedores, con beneficiarios en Banco LAFISE o vía ACH a bancos locales.",
+      "pay_payroll": "Pagar - Nómina: permite realizar pagos de nómina a uno o varios beneficiarios en Banco LAFISE o vía ACH a bancos locales.",
+      "transfer_other_banks_eccapps": "Transferir - Otros bancos vía ECCAPPS: permite enviar fondos a otros bancos en Centroamérica y el Caribe.",
+      "transfer_quick_send": "Transferir - Envío Veloz: permite transferir dinero a otras personas por medio de un código de retiro, que le permitirá al receptor retirar el dinero en canales alternos de Banco LAFISE.",
+      "transfer_local_bank": "Transferir - A banco local: permite enviar fondos a otros bancos del país por vía ACH o TEF.",
+      "transfer_prepaid_card_top_up": "Transferir - Recarga de tarjeta prepago de terceros: permite recargar tarjetas prepago de terceros en Banco LAFISE."
+    },
+    "hints": {
+      "mark_all_features": "Al responder que sí, se marcan en Sí todas las funcionalidades vigentes para el país."
+    }
+  }
+}

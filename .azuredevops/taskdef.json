@@ -1,0 +1,56 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "",
+      "image": "",
+      "cpu": 0,
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "environment": [],
+      "secrets": [],
+      "mountPoints": [
+        {
+          "sourceVolume": "tmp",
+          "containerPath": "/tmp",
+          "readOnly": false
+        }
+      ],
+      "readonlyRootFilesystem": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": $LogsGroup,
+          "awslogs-region": $Region,
+          "awslogs-stream-prefix": $LogsStream
+        }
+      }
+    }
+  ],
+  "family": "",
+  "taskRoleArn": "",
+  "executionRoleArn": "",
+  "networkMode": "awsvpc",
+  "volumes": [
+    {
+      "name": "tmp"
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "",
+  "memory": "",
+  "ephemeralStorage": {
+    "sizeInGiB": 30
+  },
+  "tags": [
+    {
+      "key": "CreatedBy",
+      "value": "Azure Pipeline"
+    }
+  ]
+}

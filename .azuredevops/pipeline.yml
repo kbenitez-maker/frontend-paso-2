@@ -1,0 +1,27 @@
+resources:
+  repositories:
+    - repository: templates
+      name: 'DevOpsEngineersApps/rgnl-azure-pipelines-apps'
+      type: git
+      ref: refs/tags/frontoffice-1.1.0
+
+trigger: none
+
+variables:
+  - ${{ if startsWith(variables['Build.SourceBranch'],'refs/pull/') }}:
+      - group: dxb-portal-account-request-develop
+  - ${{ if eq(variables['build.SourceBranchName'], 'develop') }}:
+      - group: dxb-portal-account-request-develop
+  - ${{ if eq(variables['build.SourceBranchName'], 'qa') }}:
+      - group: dxb-portal-account-request-qa
+  - ${{ if eq(variables['build.SourceBranchName'], 'main') }}:
+      - group: dxb-portal-account-request-main
+
+stages:
+  - template: 'templates/ci/container/pipeline-frontoffice.yml@templates'
+    parameters:
+      dockerImageName: 'dxb-portal-account-request'
+      sonarProjectName: 'LAFISEDigitalEmpresas_dxb-portal-account-request'
+      sonarProjectKey: 'LAFISEDigitalEmpresas_dxb-portal-account-request_AYgCfwXOVE5iTGbBcyip'
+      snykScan: true
+      snykOrganization: 'cb00e19b-77f7-42d2-ae8a-e27fd7a57ff9'

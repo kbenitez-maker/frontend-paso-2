@@ -1,0 +1,28 @@
+{
+  "Profile": {
+    "saveFailed": {
+      "title": "Could not save",
+      "description": "The company data could not be saved. Please try again."
+    },
+    "reclassification": {
+      "title": "Change the legal entity type?",
+      "description": "What we ask about the company's partners and related parties depends on it.",
+      "routeChange": "Changing to “{type}” changes the registration route, so the related-parties sections you filled no longer apply. {removed} will be removed, and the sections of the new route start empty.",
+      "rolesTaken": "Changing to “{type}” changes the required roles. Nobody is removed, but roles are taken away: {losing}.",
+      "rolesRemoved": "Changing to “{type}” changes the required roles. {removed} will be removed, having no current role left. Everyone else is kept.",
+      "alsoLosing": "Roles are also taken away from {losing}.",
+      "losesRoles": "{name} (loses {roles})",
+      "irreversible": "This cannot be undone.",
+      "brokenLinks": " It also leaves {links} without their person: you will need to designate someone again before submitting the request.",
+      "link": "{kind, select, account_signer {Account {position}} card_holder {Card of account {position}} other {Superuser {position}}} · {name}",
+      "fields": "{count, plural, =0 {} one { It also changes one form field.} other { It also changes # form fields: some are no longer asked and others will be asked for the first time.}}",
+      "cancel": "Keep it as it is",
+      "confirm": "Change",
+      "confirmAndRemove": "Change and remove",
+      "failed": {
+        "title": "Could not change the type",
+        "description": "The legal entity type could not be changed. Please try again."
+      }
+    }
+  }
+}

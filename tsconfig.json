@@ -1,0 +1,27 @@
+{
+  "extends": ["@lafise/onyx-tsconfig/next.json"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/test/*": ["./test/*"],
+      "@/*": ["./src/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": [
+    "${configDir}/**/*.ts",
+    "${configDir}/**/.*.ts",
+    "${configDir}/**/*.tsx",
+    "${configDir}/**/*.cts",
+    "${configDir}/**/*.ctsx",
+    "${configDir}/**/*.mts",
+    "${configDir}/**/*.mtsx",
+    "${configDir}/**/*.js",
+    "${configDir}/**/*.jsx",
+    "${configDir}/**/*.cjs",
+    "${configDir}/**/*.cjsx",
+    "${configDir}/**/*.mjs",
+    "${configDir}/**/*.mjsx"
+  ],
+  "exclude": ["node_modules", ".next", "coverage", "reports"]
+}

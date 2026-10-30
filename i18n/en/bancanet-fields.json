@@ -1,0 +1,47 @@
+{
+  "BancanetFields": {
+    "labels": {
+      "assign_registered_signatory": "Do you want to assign a previously registered legal representative or signatory as a Bancanet superuser?",
+      "registered_signatory_id": "Full name",
+      "first_name": "First name",
+      "second_name": "Middle name",
+      "first_last_name": "First surname",
+      "second_last_name": "Second surname",
+      "identification_type_id": "Identification type",
+      "identification_number": "Identification number",
+      "email": "Email",
+      "mobile_phone": "Mobile number",
+      "second_factor": "Second authentication factor",
+      "birth_country_id": "Country of birth",
+      "residence_country_id": "Country of residence",
+      "second_nationality_id": "Second nationality, if any",
+      "address_detail": "Detailed address",
+      "approval_type_id": "Select the transactional approval type",
+      "approver_superuser_id": "Select the superuser who will approve transactions",
+      "mark_all_features": "Do you want to enable all features?",
+      "transfer_third_party_same_country": "Transfer - LAFISE third parties, same country: lets you transfer funds to third-party accounts at Banco LAFISE.",
+      "transfer_third_party_regional": "Transfer - LAFISE third parties, regional: lets you transfer funds to third-party accounts at the other banks of Grupo Financiero LAFISE.",
+      "transfer_abroad": "Transfer - abroad: lets you transfer funds to banks in other countries.",
+      "manage_permissions": "Manage - Permissions: lets the superuser grant the users they designated permission to view, prepare and approve monetary or non-monetary transactions.",
+      "manage_daily_limits": "Manage - Daily transaction limits: lets the superuser set maximum transaction limits for the users they designated.",
+      "manage_audits": "Manage - Audits: lets the superuser review the permissions and transfers made by the users they designated.",
+      "manage_lafiservicios_subscriptions": "Manage - LAFISERVICIOS subscriptions: lets you edit and remove the services to pay that the client registered earlier.",
+      "manage_debit_card_pin_change": "Manage - Debit card PIN change: lets you generate a new PIN for the debit card.",
+      "personal_settings_ni": "Settings - My personal settings: lets you choose how you want to be notified about the transactions made.",
+      "personal_settings_cr": "Settings - My personal settings: lets you choose how you want to be notified about the transactions made.",
+      "pay_lafiservicios": "Pay - LAFISERVICIOS: lets you pay third parties, public or private service providers that contracted this payment option with Banco LAFISE.",
+      "pay_third_party_credit_card": "Pay - Third-party credit card: lets you pay third-party credit cards at Banco LAFISE.",
+      "pay_own_credit_card": "Credit cards - Own card payment: lets you pay the balance of your own credit card at Banco LAFISE.",
+      "pay_third_party_loans": "Pay - Third-party loans: lets you pay third-party loans at Banco LAFISE.",
+      "pay_suppliers": "Pay - Suppliers: lets you pay suppliers with beneficiaries at Banco LAFISE or via ACH to local banks.",
+      "pay_payroll": "Pay - Payroll: lets you pay payroll to one or more beneficiaries at Banco LAFISE or via ACH to local banks.",
+      "transfer_other_banks_eccapps": "Transfer - Other banks via ECCAPPS: lets you send funds to other banks in Central America and the Caribbean.",
+      "transfer_quick_send": "Transfer - Quick Send: lets you send money to other people with a withdrawal code that the receiver can use to withdraw the money at alternative Banco LAFISE channels.",
+      "transfer_local_bank": "Transfer - To a local bank: lets you send funds to other banks in the country via ACH or TEF.",
+      "transfer_prepaid_card_top_up": "Transfer - Third-party prepaid card top-up: lets you top up third-party prepaid cards at Banco LAFISE."
+    },
+    "hints": {
+      "mark_all_features": "Answering yes turns on every feature available in the country."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "DocumentChecklist": {
+    "confirm": {
+      "card": {
+        "title": "Confirm these details before uploading your documents",
+        "description": "We use them to build your document list and the documents the bank generates with your information."
+      },
+      "notice": "Nothing is edited here. If something is wrong, fix it in the step where you entered it: changing it may alter the documents we ask for.",
+      "listLabel": "Details that determine your checklist",
+      "edit": "Go to edit",
+      "unanswered": "Not answered",
+      "yes": "Yes",
+      "no": "No",
+      "fields": {
+        "legal_entity_type": "Legal entity type",
+        "incorporation_country": "Country of incorporation",
+        "business_activity": "Business activity",
+        "economic_sector": "Economic sector",
+        "economic_activity": "Economic activity",
+        "registered_in_rtbf": "Is the company registered in the transparency and beneficial owners registry (RTBF)?",
+        "law_7786_category": "Company category under Law 7786 (Art. 15 and 15 Bis)",
+        "other_tax_residence": "Does the company have a tax residence country other than its country of incorporation?",
+        "free_trade_zone": "Is the company located in a tax-free zone or free trade zone?",
+        "fintech": "Does the company operate as a FINTECH?",
+        "statutes_grant_bank_powers": "Do the company bylaws detail the powers of those who represent the company?",
+        "regulated_by_government_body": "Is the company regulated by a government body?",
+        "special_regime_zone": "Is the company subject to a special free trade or economic zone regime?"
+      },
+      "next": "Confirm and continue"
+    },
+    "signer": {
+      "title": "Who signs the bank documents",
+      "description": "The account opening request is built with this person.",
+      "label": "Select the legal representative who will sign the required bank documents",
+      "placeholder": "Select an option",
+      "none": "You have not registered any legal representative",
+      "pending": "You have not chosen a signer yet. Without one we cannot generate your bank documents."
+    },
+    "documents": {
+      "loaded": "{loaded} of {total} uploaded",
+      "categories": {
+        "legal": "Company documents",
+        "representatives": "Representatives and signatories",
+        "board": "Board of directors",
+        "shareholders": "Shareholders and beneficiaries",
+        "fiduciaries": "Administrators and fiduciary roles",
+        "financial": "Financial documents",
+        "regulatory": "Regulatory documents"
+      }
+    },
+    "statements": {
+      "title": "Declarations",
+      "description": "Read and accept the three of them separately. With that we send your documentation to the bank.",
+      "label": "Declarations",
+      "items": {
+        "data-validated": "By selecting Continue, you accept that every piece of data shown in the confirmation is validated and correct.",
+        "declaration": "I declare that the data supplied and the documents attached to this request are true, certain, complete and up to date, and I authorize {bank} to verify, process and share them with other local or regional entities of the LAFISE Financial Group.",
+        "no-commitment": "I accept and acknowledge that supplying this information and the attached documents does not constitute automatic approval, nor imply a commitment or obligation of the Bank to open the account, since that decision is subject to due diligence to know the customer, including procedures and controls for approving new customers under the applicable legal framework and the Bank's internal policies."
+      }
+    },
+    "errors": {
+      "saveFailed": {
+        "title": "We could not save your choice",
+        "description": "Try again in a few seconds."
+      }
+    },
+    "declarations": {
+      "submit": "Send documentation"
+    }
+  }
+}
